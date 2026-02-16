@@ -1,0 +1,12 @@
+{
+    "v": "1.5",
+    "node": "02",
+    "domain": "hodori.live",
+    "epoch": 1,
+    "status": "active",
+    "trust_anchor": {
+      "alg": "ssh-ed25519",
+      "fp": "SHA256:[INSERT_PHASE_II_FINGERPRINT_HERE]"
+    },
+    "lineage": []
+  }
