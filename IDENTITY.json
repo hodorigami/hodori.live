@@ -6,7 +6,13 @@
   "status": "active",
   "trust_anchor": {
     "alg": "ssh-ed25519",
-    "fp": "SHA256:SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk"
+    "fp": "SHA256:[INSERT_FINGERPRINT_HERE]"
   },
-  "lineage": []
+  "lineage": [
+    {
+      "node": "01",
+      "domain": "endlessvoid.space",
+      "relationship": "peer"
+    }
+  ]
 }
