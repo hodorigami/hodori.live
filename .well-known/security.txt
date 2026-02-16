@@ -1,0 +1,9 @@
+# Identity Sovereignty Audit: Node 02
+# Protocol: SSH-Ed25519 (Vitality > Metric)
+# Verification Anchor: SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk
+
+Contact: mailto:git@hodori.live
+Expires: 2027-02-16T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://hodori.live/.well-known/security.txt
+Policy: https://hodori.live/#technomoralist-mandate
