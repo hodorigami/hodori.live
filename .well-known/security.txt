@@ -1,9 +1,8 @@
-# Identity Sovereignty Audit: Node 02
-# Protocol: SSH-Ed25519 (Vitality > Metric)
-# Verification Anchor: SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk
-
-Contact: mailto:git@hodori.live
-Expires: 2027-02-16T00:00:00.000Z
-Preferred-Languages: en
+Contact: mailto:admin@endlessvoid.space
+Expires: 2027-02-16T19:30:00.000Z
+Encryption: https://endlessvoid.space/identity-anchor
+Canonical: https://endlessvoid.space/.well-known/security.txt
 Canonical: https://hodori.live/.well-known/security.txt
-Policy: https://hodori.live/#technomoralist-mandate
+Preferred-Languages: en
+Hiring: https://endlessvoid.space/mandate
+Policy: https://endlessvoid.space/sla

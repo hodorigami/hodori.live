@@ -25,6 +25,38 @@
             body { grid-template-columns: 1fr; padding: 2rem; } 
             .side { text-align: left; } 
         }
+        /* Normalized Identity Stack Components */
+.hash-block { 
+    font-family: "JetBrains Mono", monospace; 
+    background: #eee; 
+    padding: 0.75rem; 
+    display: block; 
+    font-size: 0.75rem; 
+    margin: 1rem 0; 
+    word-break: break-all; 
+    color: #333;
+    border-left: 2px solid #ddd;
+}
+
+.fingerprint { 
+    font-family: "JetBrains Mono", monospace; 
+    background: #eee; 
+    padding: 0.5rem 0.75rem; 
+    display: inline-block; 
+    font-size: 0.8rem; 
+    margin: 1rem 0; 
+    border-left: 2px solid #b31b1b;
+}
+
+.continuity-note {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    color: #777;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px dotted #ccc;
+    line-height: 1.4;
+}
 
         /* Typography & Layout */
         header { grid-column: 1 / -1; border-bottom: 2px solid #111; margin-bottom: 4rem; padding-bottom: 1rem; }
@@ -114,15 +146,15 @@
 
         <section id="identity-anchor">
             <h3>Identity Sovereignty Audit</h3>
-            <p>Authorship verified via the <strong>Identity Stack</strong>. Commit integrity is anchored to the following key.</p>
+            <p>Authorship verified via the <strong>Identity Stack</strong>. Node 02 engages platforms <strong>tactically</strong>, never existentially.</p>
             
             <b>Sovereign Source (Repository):</b><br>
             <div class="hash-block">
                 <a href="https://github.com/hodorigami/hodori.live" target="_blank">github.com/hodorigami/hodori.live</a>
             </div>
-
+        
             <b>SSH Signing Fingerprint (SHA256):</b><br>
-            <div class="hash-block">
+            <div class="fingerprint">
                 SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk
             </div>
             
@@ -130,9 +162,9 @@
             <div class="hash-block">
                 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBD3RCFQotnHqW0s6SfVspM6AZs/owNRkGl4z8Ds9J0B
             </div>
-
+        
             <div class="continuity-note">
-                [Continuity Protocol: Identity is anchored in SSH-Ed25519 signatures. This replaces legacy PGP protocols to reduce systemic friction while maintaining logical sovereignty. Identity persistence is anchored in technical necessity, not platform permission.]
+                [Continuity Protocol: Node 02 utilizes social protocols as delivery vectors only. Logic sovereignty remains local. Platform engagement is a secondary dependency; the Identity Stack persists through technical necessity.]
             </div>
         </section>
     </main>
