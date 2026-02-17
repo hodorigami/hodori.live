@@ -7,7 +7,6 @@
     <title>Hodori.live // Node 02</title>
     <link rel="security" href="/.well-known/security.txt">
     <style>
-        /* Technomoralist Aesthetic - Node 02 Aligned */
         body { 
             background: #fffff8; 
             color: #111; 
@@ -21,57 +20,23 @@
             max-width: 100vw;
             overflow-x: hidden;
         }
+        
         @media (max-width: 900px) { 
             body { grid-template-columns: 1fr; padding: 2rem; } 
             .side { text-align: left; } 
         }
-        /* Normalized Identity Stack Components */
-.hash-block { 
-    font-family: "JetBrains Mono", monospace; 
-    background: #eee; 
-    padding: 0.75rem; 
-    display: block; 
-    font-size: 0.75rem; 
-    margin: 1rem 0; 
-    word-break: break-all; 
-    color: #333;
-    border-left: 2px solid #ddd;
-}
 
-.fingerprint { 
-    font-family: "JetBrains Mono", monospace; 
-    background: #eee; 
-    padding: 0.5rem 0.75rem; 
-    display: inline-block; 
-    font-size: 0.8rem; 
-    margin: 1rem 0; 
-    border-left: 2px solid #b31b1b;
-}
-
-.continuity-note {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.7rem;
-    color: #777;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px dotted #ccc;
-    line-height: 1.4;
-}
-
-        /* Typography & Layout */
         header { grid-column: 1 / -1; border-bottom: 2px solid #111; margin-bottom: 4rem; padding-bottom: 1rem; }
         h1 { font-size: 1.6rem; font-weight: normal; letter-spacing: 0.1rem; margin: 0; text-transform: uppercase; }
         .subtitle { font-family: "JetBrains Mono", monospace; color: #b31b1b; font-size: 0.8rem; margin-top: 0.5rem; }
-        
-        /* Side Notes - Restored */
+
         .side { font-size: 0.85rem; color: #555; text-align: right; line-height: 1.4; }
         .margin-note { margin-bottom: 3rem; border-right: 2px solid #b31b1b; padding-right: 1.5rem; }
         .margin-note b { font-family: "JetBrains Mono", monospace; color: #111; display: block; text-transform: uppercase; margin-bottom: 0.5rem; }
-        
+
         h2 { font-size: 1.3rem; font-weight: normal; font-style: italic; border-bottom: 1px solid #ddd; margin-top: 0; margin-bottom: 1.5rem; }
         p { margin-bottom: 1.8rem; max-width: 40rem; font-size: 1.1rem; }
         
-        /* SLA Blocks */
         .sla-block { border: 1px solid #111; padding: 1.5rem; background: #fff; box-shadow: 5px 5px 0px #111; margin: 2rem 0; }
         .sla-block h3 { margin-top: 0; font-family: "JetBrains Mono", monospace; font-size: 0.9rem; text-transform: uppercase; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
         .sla-list { font-family: "JetBrains Mono", monospace; font-size: 0.85rem; list-style: none; padding: 0; }
@@ -81,27 +46,40 @@
         a { color: #b31b1b; text-decoration: none; border-bottom: 1px dotted #b31b1b; }
         a:hover { border-bottom: 1px solid #b31b1b; }
 
-        /* Identity Audits */
+        /* Normalized Identity Stack Components */
         #identity-anchor { margin-top: 4rem; padding-top: 2rem; border-top: 1px double #111; }
+        #identity-anchor h3 { font-family: "JetBrains Mono", monospace; font-size: 0.9rem; text-transform: uppercase; }
+        
         .hash-block { 
             font-family: "JetBrains Mono", monospace; 
             background: #eee; 
             padding: 0.75rem; 
             display: block; 
-            font-size: 0.7rem; 
+            font-size: 0.75rem; 
             margin: 1rem 0; 
             word-break: break-all; 
             color: #333;
+            border-left: 2px solid #ddd;
         }
-        
-        /* Continuity Protocol */
+
+        .fingerprint { 
+            font-family: "JetBrains Mono", monospace; 
+            background: #eee; 
+            padding: 0.5rem 0.75rem; 
+            display: inline-block; 
+            font-size: 0.8rem; 
+            margin: 1rem 0; 
+            border-left: 2px solid #b31b1b;
+        }
+
         .continuity-note {
             font-family: "JetBrains Mono", monospace;
             font-size: 0.7rem;
             color: #777;
             margin-top: 2rem;
-            border-top: 1px dotted #ccc;
             padding-top: 1rem;
+            border-top: 1px dotted #ccc;
+            line-height: 1.4;
         }
     </style>
 </head>
@@ -152,17 +130,13 @@
             <div class="hash-block">
                 <a href="https://github.com/hodorigami/hodori.live" target="_blank">github.com/hodorigami/hodori.live</a>
             </div>
-        
+
             <b>SSH Signing Fingerprint (SHA256):</b><br>
-            <div class="fingerprint">
-                SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk
-            </div>
+            <div class="fingerprint">SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk</div>
             
             <br><b>Public Sovereign Root (Ed25519):</b><br>
-            <div class="hash-block">
-                ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBD3RCFQotnHqW0s6SfVspM6AZs/owNRkGl4z8Ds9J0B
-            </div>
-        
+            <div class="hash-block">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBD3RCFQotnHqW0s6SfVspM6AZs/owNRkGl4z8Ds9J0B</div>
+
             <div class="continuity-note">
                 [Continuity Protocol: Node 02 utilizes social protocols as delivery vectors only. Logic sovereignty remains local. Platform engagement is a secondary dependency; the Identity Stack persists through technical necessity.]
             </div>
