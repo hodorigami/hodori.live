@@ -1,14 +1,64 @@
-# The Technomoralist Mandate (v1.5)
-**Node:** 02 (Hodori) | **Territory:** WSL2 / Surface | **Status:** Active
+Technomoralist Mandate v1.0
+Node 01 | Status Active | identity.endlessvoid.space
 
-## I. The Premise
-Node 02 rejects "Systemic Serfdom" by utilizing the Linux Subsystem to bypass host-level abstractions. We prioritize **Functional Lucidity** over the sterile efficiency of the Windows host.
+I. Premise
+Reject systemic serfdom to algorithmic stacks.
+Adopt compute-capable sovereignty.
+Pro-technology.
+Living subject > sterile metrics.
 
-## II. The Kernel Virtues
-1. **Honesty:** Anti-Deepfake via Ed25519 Signing.
-2. **Self-Control:** Negative Education (Minimalist Tech Stack).
-3. **Courage:** Opt-out Sovereignty (Manual Broadcasts).
+II. Kernel Virtues
 
-## III. The Handshake
-This node is verified only when the `DNS TXT` record matches the `Git Commit Signature`.
-> "Vitality > Metric."
+Honesty
+- Anti-deepfake
+- Signing
+- Verified authorship
+
+Self-Control
+- Negative education
+- Minimal attack surface
+
+Humility
+- Anti-god-complex
+- Modular decoupled systems
+
+Justice
+- Opt-out sovereignty
+- Freedom of exit
+
+Courage
+- Identity stack isolation
+- Protocol resilience
+
+Empathy
+- No robot-care
+- Human-centric feedback
+
+Wisdom
+- Sfumato logic
+- Ambiguity tolerance
+
+III. Dependency Grid
+
+Identity
+- Platform: PGP / third-party apps
+- Sovereign: SSH-Ed25519 + DNS pinning
+
+Content
+- Platform: Social media / CMS
+- Sovereign: Signed markdown / Git
+
+Trust
+- Platform: Verified badges
+- Sovereign: Cryptographic verification
+
+Efficiency
+- Platform: Metric absolutism
+- Sovereign: Functional lucidity
+
+IV. Objective
+Maintain compute-capable status in 21st-century systems.
+Constraints > generic helpfulness.
+Every signed byte carries living intent.
+
+Vitality > Metric.
