@@ -23,8 +23,8 @@ Closed-loop system protecting the Human from external profiling and internal ove
                  │ Audits & Guides
                  │ Human Maintenance
                  └─────┬────────┘
-                      │
-     ┌────────────────┴────────────────┐
+                       │
+     ┌─────────────────┴────────────────┐
      ▼                                 ▼
 ┌─────────────┐                   ┌─────────────┐
 │   Node 02   │                   │   Node 00   │
