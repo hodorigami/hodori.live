@@ -6,7 +6,7 @@
   "status": "active",
   "trust_anchor": {
     "alg": "ssh-ed25519",
-    "fp": "SHA256:[INSERT_FINGERPRINT_HERE]"
+    "fp": "SHA256:y7Rb/5xFmO49SGPUW2PcUGMn2lzWYq85ahSpiOEIFXk"
   },
   "lineage": [
     {
