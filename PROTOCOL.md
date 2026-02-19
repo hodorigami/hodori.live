@@ -1,5 +1,5 @@
 SOVEREIGNTY IDENTITY STACK v1.6
-Status Frozen | Type SSH-Ed25519 | Node 01
+Status Frozen | Type SSH-Ed25519 | 01
 
 1. Mandate
 Identity = hardware-bound cryptographic signature.
