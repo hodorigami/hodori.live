@@ -1,4 +1,4 @@
-# I. SOVEREIGN ARCHITECTURE (Topology)
+# I. SOVEREIGNTY ARCHITECTURE
 
 Closed-loop system protecting the Human from external profiling and internal over-optimization.
 
@@ -21,7 +21,7 @@ Closed-loop system protecting the Human from external profiling and internal ove
                  │  Governor   │
                  │ Oversees 01/02
                  │ Audits & Guides
-                 │    Human    │
+                 │ Human Agency│
                  └─────┬───────┘
                        │
      ┌─────────────────┴────────────────┐
