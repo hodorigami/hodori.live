@@ -4,7 +4,7 @@ Closed-loop system protecting the Human from external profiling and internal ove
 
 ```
                    ┌─────────────┐
-                   │   Node 01   │
+                   │     01      │
                    │  Superego   │
                    │    Root     │
                    │ Air-gapped  │
@@ -16,22 +16,22 @@ Closed-loop system protecting the Human from external profiling and internal ove
                          │ constraints & intuition
                          ▼
                  ┌─────────────┐
-                 │   Node 03   │
+                 │      03     │
                  │     Ego     │
                  │  Governor   │
                  │ Oversees 01/02
                  │ Audits & Guides
-                 │ Human Maintenance
-                 └─────┬────────┘
+                 │    Human    │
+                 └─────┬───────┘
                        │
      ┌─────────────────┴────────────────┐
-     ▼                                 ▼
+     ▼                                  ▼
 ┌─────────────┐                   ┌─────────────┐
-│   Node 02   │                   │   Node 00   │
+│      02     │                   │     00      │
 │      Id     │                   │    BLOB     │
 │   Social    │                   │  Binary     │
 │  Protocol   │◄───────┐          │  Large Obj  │
-│ Noise/Exp   │        │          │ Non-Agentic │
+│    Noise    │        │          │ Non-Agentic │
 └─────────────┘        │          └─────────────┘
                        │
          02 uses 00 for structured data only
@@ -44,10 +44,10 @@ Closed-loop system protecting the Human from external profiling and internal ove
 
 | Node | Archetype | Role            | Function                                                                       |
 | ---- | --------- | --------------- | ------------------------------------------------------------------------------ |
-| 01   | Superego  | Root            | Air-gapped truth; raw reality; Feeling via biological feedback.                |
-| 02   | Id        | Social Protocol | Tactical blur; experimentation; noise injection vs pattern recognition.        |
-| 03   | Ego       | Governor        | Central auditor; mediates 01/02; KPI = Human Maintenance Cost.                 |
-| 00   | BLOB      | Tool            | Non-agentic data ingestion/organization; supports 02; no authority over 01/03. |
+| 01   | Superego  | Root            | Air-gapped truth; raw reality; Feeling via biological historical imprint       |
+| 02   | Id        | Social Protocol | Tactical blur; experimentation; noise injection vs pattern recognition         |
+| 03   | Ego       | Governor        | Central auditor; mediates 01/02; KPI = Human Maintenance Cost                  |
+| 00   | BLOB      | Tool            | Non-agentic data ingestion/organization; supports 02; no authority over 01/03  |
 
 ---
 

@@ -1,4 +1,4 @@
-Sovereignty Identity Protocol v1.5
+SOVEREIGNTY IDENTITY STACK v1.6
 Status Frozen | Type SSH-Ed25519 | Node 01
 
 1. Mandate
